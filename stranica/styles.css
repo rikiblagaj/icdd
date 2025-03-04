@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #111;
+    color: #eee;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-image: url(./slike/icdd2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    text-align: center;
+    background-image: url(./slike/icdd.png);
+    padding: 150px 0;
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  nav {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  nav a:hover {
+    color: #e63946;
+  }
+  
+  section {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #e63946;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style: square;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #e63946;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
